@@ -63,7 +63,7 @@ public:
     BinaryHeap();
     ~BinaryHeap();
     void optimize(size_t insertCount, size_t extractCount) {
-        if(insertCount < 0 || extractCount < 0){
+        if(insertCount < 0 || extractCount < 0 || size > 0){
             throw std::logic_error("BinaryHeap is empty");
         }
         this->k = FindK(insertCount, extractCount);
