@@ -251,3 +251,4 @@ private:
 	}
 };
 
+#endif //UNTITLED6_BINARYHEAP_H
